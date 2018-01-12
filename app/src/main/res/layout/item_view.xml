@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    app:contentPadding="5dp"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    android:layout_margin="2dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivMain"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvLikes"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:background="#66111111"
+            android:layout_marginTop="180dp"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
