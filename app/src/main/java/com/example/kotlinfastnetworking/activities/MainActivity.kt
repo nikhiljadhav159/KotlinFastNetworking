@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity(),View.OnClickListener{
 
 
 
-        AndroidNetworking.get("https://www.pixabay.com/api/?key=7029198-8bf9aba37d11fdec205b7403c&q=nature&image_type=photo")
+        AndroidNetworking.get("https://www.pixabay.com/api/?key="+" Enter your Key for Pixabay "+"&q=nature&image_type=photo")
                 .setOkHttpClient(okHttpClient)
                 .setPriority(Priority.HIGH)
                 .build()
